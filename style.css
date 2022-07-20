@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+:root{
+    --primary-color:#2c4251;
+    --navbar-text:#F6F7EB;
+    --btn-color:#E94F37;
+    --border-radius-size:8px;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: var(--primary-color);
+    color: var(--navbar-text);
+    height: 7vh;
+    padding:0 1rem;
+
+}
+
+.navbar a{
+    color: var(--navbar-text);
+    font-weight: 400;
+    height: 100%;
+}
+
+.navbar a:hover{
+    opacity: 0.5;
+    background-color: #E94F37;
+}
+.logo{
+    font-size: 1.4em;
+    width: 20%;
+}
+
+.navbar-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+
+
+.nav-icons a{
+    margin-right: 0.8rem;
+}
+
+.nav-icons i{
+    margin-right: 0.8rem;
+}
+
+.signup-btn{
+    background: var(--btn-color);
+    padding: 0.2em 0.8em;
+    border: none;
+    border-radius: 8px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+/* login box */
+.login{
+    max-width: 1500px;
+    background: #F6F7EB;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box{
+    background: var(--primary-color);
+    color: var(--navbar-text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    border-radius: var(--border-radius-size);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-box input{
+    border: none;
+}
+
+.login-btn{
+    background: var(--btn-color);
+    color: var(--navbar-text);
+    padding: 0.2em 0.8em;
+    border-radius: 8px;
+    display: inline-block;
+    width: 70%;
+    border: none;
+}
