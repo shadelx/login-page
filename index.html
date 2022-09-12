@@ -10,41 +10,47 @@
     <title>zafiro-login</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <i class='bx bxs-package'></i>
-            <span>ZAFIRO</span>
-        </div>
+    <header>
+        <nav class="container">
+            <span class="logo">
+                zafiro
+            </span>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="#">home</a></li>
+                <li class="nav-menu-item"><a href="#">about</a></li>
+                <li class="nav-menu-item"><a href="#">contact</a></li>
+            </ul>
 
-        <ul class="navbar-menu">
-            <li><a href="#">home</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">contact us</a></li>
-        </ul>
+            <div class="social-icons">
+                <i class='bx bxl-instagram-alt'></i>
+                <i class='bx bxl-meta' ></i>
+                <i class='bx bxl-discord-alt'></i>
+            </div>
+        </nav>
+    </header>
 
-        <div class="nav-icons">
-            <a href="#" class="login-button">Login</a>
-            <a href="#" class="signup-btn">Sign up</a>
-            
-            <i class='bx bxl-meta'></i>
-            <i class='bx bxl-twitter' ></i>
+    <main>
+        <section class="login container">
+            <form action="" class="form-box">
+                <div class="form-left">
+                    <h2 class="text-mid">
+                        Login
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptatibus minima officiis quisquam vero ullam.</p>
+                </div>
+                <div class="form-right">
 
-        </div>
-    </nav>
-    
-    <div class="login">
-        <div class="login-box">
-            <span>username</span>
-            <input type="text" placeholder="username">
-
-            <span>password</span>
-            <input type="text" placeholder="password">
-
-            <button class="login-btn">login</button>
-
-        </div>
-    </div>
-    
+                    <div class="form-item">
+                        <input type="text" class="form-input" placeholder="username">
+                    </div>
+                    <div class="form-item">
+                        <input type="text" class="form-input" placeholder="password">
+                    </div>
+                    <button>submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
     
 </body>
 </html>
