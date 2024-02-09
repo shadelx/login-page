@@ -144,3 +144,20 @@ nav{
 
     padding: 0.5rem 0;
 }
+
+.btn {
+    padding: 10px 20px;
+    width: 70%;
+    background: aqua;
+    color: #EEE;
+    font-size: medium;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: red;
+    color: #EEE;
+} 

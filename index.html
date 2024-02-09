@@ -31,26 +31,28 @@
 
     <main>
         <section class="login container">
-            <form action="" class="form-box">
+            <form action="submit" class="form-box" id="login-form">
                 <div class="form-left">
                     <h2 class="text-mid">
                         Login
                     </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptatibus minima officiis quisquam vero ullam.</p>
+                    <p>Give your right credentials to login to the platform</p>
                 </div>
                 <div class="form-right">
 
                     <div class="form-item">
-                        <input type="text" class="form-input" placeholder="username">
+                        <input type="text" class="form-input" placeholder="username" name="username" required>
                     </div>
                     <div class="form-item">
-                        <input type="text" class="form-input" placeholder="password">
+                        <input type="password" class="form-input" placeholder="password" name="password" required >
                     </div>
-                    <button>submit</button>
+                    <input type="submit" class="btn" id="login-form-button" value="login">
                 </div>
             </form>
         </section>
     </main>
+
+    <script src="main.js"></script>
     
 </body>
 </html>
